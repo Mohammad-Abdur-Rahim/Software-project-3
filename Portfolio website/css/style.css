@@ -1,0 +1,455 @@
+*,
+a {
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+}
+
+/* =============================================================== * HEADER PART START * ================================================*/
+.Main_Header {
+  /* background: url(../img/aa.jpg); */
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Header_Top {
+  padding: 20px 20px 0px 30px;
+}
+.btmargin{
+  margin-top: 100px;
+  padding-left: 50px;
+}
+
+.Header_Bootom span {
+    color:#fd6e0a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+  /* padding: 100px 0px 290px 20px; */
+}
+.Header_Bootom h1{
+  color: #ffffff;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 10px 0;
+  margin-top: -20px;
+  font-family: "Poppins", sans-serif;
+}
+.Header_Bootom h3{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+.Header_Bootom p{
+  margin: 20px 0 50px;
+  color: #979a90;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+}
+.headbtn1 .btn1{
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #FD6E0A;
+  color: #ffffff;
+  transition: 1s;
+
+ 
+}
+.headbtn1 .btn2{
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-left: 30px;
+  background-color:#ffffff ;
+  transition: 1s;
+}
+.headbtn1  :hover {
+  background-color: #0373ea; 
+  color: #ffffff;
+}
+
+.headimg{
+  
+}
+
+
+/*------------------------------------------------------------ * BOOTSTRAP MENU CSS CODE START * ------------------------------------------ */
+.navbar .navbar-nav .nav-link {
+  font-size: 23px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Gilroy;
+  margin-right: 20px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: 2s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  color: #fff;
+}
+
+@media only screen and (min-width: 960px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .dropdown .dropdown-menu {
+    display: none;
+    width: 250px;
+    margin: 40px 50px 20px 10px;
+    padding: 10px;
+    /* background-color: blue;
+  */
+  }
+
+  .dropdown:hover .dropdown-toggle::after {
+    border-bottom: 0.3em solid;
+    border-top: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown-toggle.show::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+}
+
+/*---------------------------------------------------------- * BOOTSTRAP MENU CSS CODE END * ------------------------------------------ */
+/* ============================================================== * HEADER PART END * ================================================*/
+/* ============================================================== * MAIN SECTION PART START * ================================================*/
+/* imgsection------------- START */
+.imgbox{
+  background-color: #000000;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.imgboxbg{
+  background-color:#ffffff;
+  border-radius: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box1{
+border-right: 1px solid black;
+margin-right: 20px;
+
+}
+.img1{
+background-color: #FFC107;
+border-radius: 50%;
+}
+.content1 h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #15295F;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+}
+.content1 p{
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #FD6E0A;
+}
+/* imgsection------------- END */
+
+
+
+/* feature-item------------- START */
+.feature-item{
+background-color: #000000;
+padding: 30px 0px 30px 0px;
+}
+.fbox{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+  transition: 2s;
+  overflow: hidden;
+}
+.fbox:hover{
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+.fbox:hover p{
+  color: #797979;
+  
+}
+.fbox:hover h2{
+  color: #ffffff;
+  
+}
+.ftittle span{
+  letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
+    color: #797979;
+    font-weight: 400;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.ftittle h2{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FD6E0A;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-bottom: 30px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+
+.fbox img{
+  background-color: #FFC107;
+  border-radius: 50%;
+  }
+  .fbox h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #15295F;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+  }
+  .fbox p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #6f6b80;
+  } 
+  /* feature-item------------- END */
+
+
+
+/* portfolio ------------ START */
+.portfolio{
+background-color: #000000;
+
+}
+.IMGHOVER{
+  transition: 2s!important;
+}
+.IMGHOVER  :hover{
+  transform: scale(1.1);
+}
+
+  .porttittle span{
+    letter-spacing: 1px;
+      display: block;
+      line-height: 19   px;
+      color: #FD6E0A;
+      font-weight:500;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  .porttittle h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  }
+ /* portfolio-item------------- END */
+
+ /*clienttext------------- START */
+  .clienttext{
+ padding-top: 100px;
+  }
+  .clintrow{
+    padding-bottom: 80px;
+  }
+  .bgg{
+    background-color: #000000;
+  }
+  .clienttext h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    /* color: #15295f; */
+    color: #FD6E0A;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+  }
+  .ctext{
+    padding-top: 30px;
+  }
+  .ctext p{
+    padding: 15px 0 40px;
+    font-size: 16px;
+    line-height: 1.8;
+    /* color: #6f6b80; */
+    color: #aeaeae;
+    cursor: grab;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+  }
+  .ctext h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .ctext span{
+    font-weight: bold;
+  }
+   /*clienttext------------- END */
+/* ============================================================== * MAIN SECTION PART END * ================================================*/
+/* ============================================================== * FOOTER PART START * ================================================*/
+.main-footer {
+  background-color: black;
+}
+
+.main-footer hr {
+  color: #ffffff;
+}
+
+
+.sone>h5,
+.stwo>h5,
+.sthree>h5,
+.sfour>h5,
+.sfive>h5 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Gilroy;
+  color: goldenrod;
+}
+
+.stwo>a,
+.sthree>a,
+.sfour>a,
+.sfive>a {
+  color: #ffffff;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  line-height: 25PX;
+}
+
+.second_part {
+  padding: 90px 0px 120px 20px;
+}
+
+.Third_Fast>a {
+  font-size: 15px;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+.Third_Second i {
+  font-size: 20px;
+  padding: 10px 14px;
+  transition-duration: 2s;
+  color: #FFC107;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.Third_Second :hover i {
+  transform: scale(1.6);
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+
+.experience{
+  padding: 80px 0px 80px 0px;
+}
+
+/* ============================================================== * FOOTER PART END * ================================================*/
+
+
+/* CONATCT page css is her=========================================================  */
+.conatcat h2 {
+  color: #050505;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.conatcat {
+  padding: 50px 0px 50px 0px;
+}
+
+.conatcat h2 {
+  padding-bottom: 20px;
+}
+/* footer area extra  ==============================================all start*/
+.First_part p {
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.First_part button {
+  background-color: #37dc00;
+  transition: 2s;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.First_part button:hover {
+  background-color: #0C66EB;
+  transition: 2s;
+  color: white;
+}
+.btop {
+  background-color: #140000;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.btop h1 {
+  color: #ffffff;
+  font-size: 65px;
+  line-height: 85px;
+}
+
+.btop h1 span {
+  text-decoration: underline #F47521;
+
+
+}
+/* footer area extra  ==============================================all end*/
+.experience{
+  background-color: #000000;
+}
+.progbox b{
+  color: #ffffff;
+  margin-bottom: 30px;
+
+}
+.progress{
+margin-bottom: 20px;
+}
